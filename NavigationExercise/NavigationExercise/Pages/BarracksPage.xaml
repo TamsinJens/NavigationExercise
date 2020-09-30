@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NavigationExercise.BarracksPage"
+             Title="Barracks">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="btnThroneRoom" Text="▷To Throne Room" HorizontalOptions="End" Clicked="btnThroneRoom_Clicked"></Button>
+            <Button x:Name="btnOpenChest" Text="Open Chest" Clicked="btnOpenChest_Clicked" HorizontalOptions="Start"></Button>
+            <Label HorizontalOptions="Center">Soldiers, come together</Label>
+            <Button x:Name="btnArmoury" Text="▽To Armoury" HorizontalOptions="Center" Clicked="btnArmoury_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

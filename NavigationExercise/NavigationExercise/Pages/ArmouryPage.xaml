@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NavigationExercise.ArmouryPage"
+             Title="Armoury">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="btnBarracks" Text="△To Barracks" Clicked="btnBarracks_Clicked" HorizontalOptions="Center"></Button>
+            <Label HorizontalOptions="Center">Defend yourself</Label>
+            <Button x:Name="btnGrandHall" Text="▷To Grand Hall" Clicked="btnGrandHall_Clicked" HorizontalOptions="End"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
